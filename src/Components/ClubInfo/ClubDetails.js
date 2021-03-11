@@ -45,7 +45,7 @@ const ClubDetails = () => {
     }
 
     return (
-        <div style={{backgroundColor:'cyan'}}>
+        <div style={{backgroundColor:'#d0ffff'}}>
             <Jumbotron className="jumbotron text-white jumbotron-image shadow" style={{
                 backgroundImage: `url(${strStadiumThumb})`, backgroundSize: 'cover', backgroundPosition: 'center center',
                 backgroundRepeat: 'no-repeat'
@@ -77,11 +77,11 @@ const ClubDetails = () => {
             
             <div className="text-center p-2">
                 <a target="_blank" rel="noreferrer" href={strFacebook}>
-                <FontAwesomeIcon icon={faFacebookSquare} size="4x" mask={['far', 'circle']} color="skyblue" />
+                <FontAwesomeIcon className="m-2" icon={faFacebookSquare} size="4x" mask={['far', 'circle']} color="skyblue" />
                 </a>
-                <FontAwesomeIcon icon={faInstagramSquare} size="4x" color="salmon" />
-                <FontAwesomeIcon icon={faTwitterSquare} size="4x" color="lightgreen" />
-                <FontAwesomeIcon icon={faYoutubeSquare} size="4x" color="#ff3c7f" />
+                <FontAwesomeIcon className="m-2" icon={faInstagramSquare} size="4x" color="salmon" />
+                <FontAwesomeIcon className="m-2" icon={faTwitterSquare} size="4x" color="lightgreen" />
+                <FontAwesomeIcon className="m-2" icon={faYoutubeSquare} size="4x" color="#ff3c7f" />
             </div>
             </Container>
         </div>
