@@ -1,0 +1,35 @@
+
+#header-wrapper{
+
+    position: relative; 
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#header-wrapper::before {    
+    content: "";
+    background-image: url(../../Images/backgroundCopy.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    
+}
+
+#header-wrapper h2 {
+    padding: 10px;
+    position: relative;
+    color: #ffffff;  
+    line-height: 0.9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px 2px #d3d3ff;
+    
+  }
